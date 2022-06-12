@@ -1,0 +1,148 @@
+.banner{
+    /* background-image: url('../../../../img/cyber-bullying-harassment-teen-girl-crying-pc_107791-1537.png'); */
+    background-repeat: no-repeat;
+    background-position: 'center';
+    background-size: 'cover';
+    width: 100%;
+    height: 500px;
+    /* background-color: #100E3F;
+    backgro */
+    
+}
+.text-align{
+    text-align: left;
+    width: 80%;
+    padding-left: 30px;
+    margin-left: 28px;
+}
+
+
+.custom-botton{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0px 15px;
+    perspective: 1000px;
+    
+  }
+  .custom-botton .link{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .custom-botton .link:before,
+  .custom-botton .link:after{
+    position: absolute;
+    content: "Login";
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fcad03;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .custom-botton .link:before{
+    color: #fff;
+    background: #fcad03;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .custom-botton .link:after{
+    color: #fcad03;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .custom-botton .link:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+.align{
+    margin-right: 310px;
+}
+.css-selector {
+    background: linear-gradient(234deg, #100e3f, #5c1e4e);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
+    .news {
+        width: 80px;
+        height: 50px;
+        background-color: #100e3f;
+    }
+   
+    /* .news-scroll a {
+        text-decoration: none
+    } */
+    
+    .news-scroll p {
+        padding-top: 10px;
+    } 
+    
+    .dot {
+        height: 6px;
+        width: 6px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: -3px !important;
+        background-color: #fcad03;
+        border-radius: 50%;
+        display: inline-block
+    }

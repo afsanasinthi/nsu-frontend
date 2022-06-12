@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .select-hr {
+    border-bottom: 1px solid red; /*does not work*/
+  }
+  
+  .select-control {
+    width: 100px;
+  }
+  
